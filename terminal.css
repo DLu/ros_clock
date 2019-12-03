@@ -1,0 +1,28 @@
+body {
+    font-family: 'Press Start 2P';
+    background-color: black;
+    color: #00ff00;
+    text-shadow: 0 0 11px #00ff00;
+}
+span.distro {
+    display: inline-block;
+    width: 150px;
+}
+div.row {
+    width: 100%;
+    border-style: dotted;
+    border-width: 3px;
+}
+div.expired {
+    color: #005500;
+    border-color: #005500;
+    font-size: small;
+}
+div.future {
+    color: #00bb00;
+    border-color: #009900;
+    # font-size: small;
+}
+span.countdown {
+    font-size: small;
+}

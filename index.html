@@ -1,0 +1,64 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ROS Clock</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="terminal.css" rel="stylesheet">
+    <script src="info.js"></script>
+    <script src="countdown.js"></script>
+</head>
+<body>
+    <h1>ROS Clock</h1>
+    <div id="contents"></div>
+    <script>
+    function update()
+    {
+      updateDict();
+
+      var contents = document.getElementById("contents");
+      contents.innerHTML = '';
+
+      for (key in timing)
+      {
+        var entry = timing[key];
+
+        var row = document.createElement('div');
+        row.setAttribute('class', "row " + entry["status"]);
+        contents.appendChild(row);
+
+        var head = document.createElement('span');
+        head.setAttribute('class', 'distro')
+        head.appendChild(document.createTextNode(key));
+        row.appendChild(head);
+
+        row.appendChild(document.createTextNode(entry["status"]));
+
+        if (entry["status"] != "expired")
+        {
+            row.appendChild(document.createElement('br'));
+
+            var countdown = document.createElement('span');
+            countdown.setAttribute('class', 'countdown')
+            countdown.appendChild(document.createTextNode('Time Remaining: '));
+            countdown.appendChild(document.createTextNode(deltaToString(entry["delta"])));
+            row.appendChild(countdown);
+
+            if (entry["status"] == "future")
+            {
+                row.appendChild(document.createElement('br'));
+
+                var countdown = document.createElement('span');
+                countdown.setAttribute('class', 'countdown')
+                countdown.appendChild(document.createTextNode('Time to Release: '));
+                countdown.appendChild(document.createTextNode(deltaToString(entry["release"])));
+                row.appendChild(countdown);
+            }
+        }
+      }
+    }
+
+    setInterval(update, 1000);
+    update();
+    </script>
+</body>
+</html>
