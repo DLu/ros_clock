@@ -16,6 +16,6 @@ var timing = {
     "bouncy":      {"start": "June 1, 2018",     "end": "July 1, 2019"},
     "crystal":     {"start": "Dec 1, 2018",      "end": "Dec 1, 2019"},
     "dashing":     {"start": "May 1, 2019",      "end": "May 1, 2021"},
-    "eloquent":    {"start": "November 1, 2019", "end": "November 1, 2021"},
+    "eloquent":    {"start": "November 1, 2019", "end": "November 1, 2020"},
     "foxy":        {"start": "May 1, 2020",      "end": "May 1, 2023"},
 }
