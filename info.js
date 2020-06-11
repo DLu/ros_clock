@@ -12,10 +12,11 @@ var timing = {
     "lunar":       {"start": "May 23, 2017",     "end": "May 23, 2019"},
     "melodic":     {"start": "May 23, 2018",     "end": "May 23, 2023"},
     "noetic":      {"start": "May 23, 2020",     "end": "May 23, 2025"},
-    "ardent":      {"start": "Dec 1, 2017",      "end": "Dec 1, 2018"},
-    "bouncy":      {"start": "June 1, 2018",     "end": "July 1, 2019"},
-    "crystal":     {"start": "Dec 1, 2018",      "end": "Dec 1, 2019"},
-    "dashing":     {"start": "May 23, 2019",      "end": "May 23, 2021"},
-    "eloquent":    {"start": "November 1, 2019", "end": "November 1, 2020"},
-    "foxy":        {"start": "May 23, 2020",     "end": "May 23, 2023"},
+    "ardent":      {"start": "Dec 8, 2017",      "end": "Dec 1, 2018"},
+    "bouncy":      {"start": "July 2, 2018",     "end": "July 1, 2019"},
+    "crystal":     {"start": "Dec 14, 2018",     "end": "Dec 1, 2019"},
+    "dashing":     {"start": "May 31, 2019",     "end": "May 23, 2021"},
+    "eloquent":    {"start": "November 22, 2019","end": "November 1, 2020"},
+    "foxy":        {"start": "June 5, 2020",     "end": "May 23, 2023"},
+    "galactic":    {"start": "May 23, 2021",     "end": "May 23, 2022"}, // TODO: double check end date
 }
