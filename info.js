@@ -18,5 +18,5 @@ var timing = {
     "dashing":     {"start": "May 31, 2019",     "end": "May 23, 2021"},
     "eloquent":    {"start": "November 22, 2019","end": "November 1, 2020"},
     "foxy":        {"start": "June 5, 2020",     "end": "May 23, 2023"},
-    "galactic":    {"start": "May 23, 2021",     "end": "May 23, 2022"}, // TODO: double check end date
+    "galactic":    {"start": "May 23, 2021",     "end": "November 23, 2022"},
 }
