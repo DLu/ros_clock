@@ -7,6 +7,10 @@ function pluralString(n, base)
 
 function deltaToString(distance)
 {
+    if (isNaN(distance))
+    {
+      return "???";
+    }
     distance /= 1000;  // from milliseconds
     var seconds = Math.floor(distance % 60);
     distance -= seconds;
