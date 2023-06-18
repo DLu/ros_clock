@@ -20,5 +20,6 @@ var timing = {
     "foxy":        {"start": "June 5, 2020",     "end": "May 23, 2023"},
     "galactic":    {"start": "May 23, 2021",     "end": "November 23, 2022"},
     "humble":      {"start": "May 23, 2022",     "end": "May 23, 2027"},
-    "iron":        {"start": "May 23, 2023"}
+    "iron":        {"start": "May 23, 2023",     "end": "November 23, 2024"},
+    "jazzy":       {"start": "May 23, 2024"}
 }
