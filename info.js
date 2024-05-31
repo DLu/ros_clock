@@ -22,4 +22,5 @@ var timing = {
     "humble":      {"start": "May 23, 2022",     "end": "May 23, 2027"},
     "iron":        {"start": "May 23, 2023",     "end": "November 23, 2024"},
     "jazzy":       {"start": "May 23, 2024",     "end": "May 23, 2029"},
+    "kilted":      {"start": "May 23, 2025",     "end": "November 23, 2025" },
 }
