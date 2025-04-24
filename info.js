@@ -11,7 +11,7 @@ var timing = {
     "kinetic":     {"start": "May 23, 2016",     "end": "April 1, 2021"},
     "lunar":       {"start": "May 23, 2017",     "end": "May 23, 2019"},
     "melodic":     {"start": "May 23, 2018",     "end": "May 23, 2023"},
-    "noetic":      {"start": "May 23, 2020",     "end": "May 23, 2025"},
+    "noetic":      {"start": "May 23, 2020",     "end": "May 31, 2025"},
     "ardent":      {"start": "Dec 8, 2017",      "end": "Dec 1, 2018"},
     "bouncy":      {"start": "July 2, 2018",     "end": "July 1, 2019"},
     "crystal":     {"start": "Dec 14, 2018",     "end": "Dec 1, 2019"},
