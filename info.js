@@ -24,5 +24,5 @@ var timing = {
     "jazzy":       {"start": "May 23, 2024",     "end": "May 23, 2029"},
     "kilted":      {"start": "May 23, 2025",     "end": "November 23, 2026" },
     "lyrical":     {"start": "May 23, 2026",     "end": "May 23, 2031" },
-    "makoa":       {"start": "May 21, 2027",     "end": ""},
+    "makoa":       {"start": "May 21, 2027",     "end": "December 1, 2028"},
 }
